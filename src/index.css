@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top {
+  background-color:  #03ADE9;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.top-text {
+  text-align: center;
+  color: #EB1D28;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+.button-left {
+  background-color: greenyellow;
+  width: 50%;
+}
+
+.button-right {
+  background-color: hotpink;
+  width: 50%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+}
+
+@media (max-width: 600px) {
+  .button-left {
+    background-color: greenyellow;
+    width: 100%;
+  }
+  
+  .button-right {
+    background-color: hotpink;
+    width: 100%;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  }
+
+
+.button-text{
+  padding: 10px;
+  text-align: center;
+}
+
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
+/* CARD */
+
+.card-container {
+  background-color: #FBC8B5;
+  padding-bottom: 1px;
+  margin: 5px;
+}
+
+h3 {
+  margin: 0;
+  padding: 1em 1em 0 1em;
+  
+}
+
+
+ol {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 60px;
+}
+ol li {
+  margin: 0 1.5em 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+ol li::before {
+  content: counter(my-awesome-counter);
+  color:  #FCE611;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 14px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  padding: 4px;
+  background: #03ADE9;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
+
+.home {
+  padding: 4vw
+}
+
+.week-name {
+  margin: 10px;
+}
