@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import ThreeCard from './ThreeCard'
 import Form from './Form'
 import {
     Link
