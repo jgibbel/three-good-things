@@ -22,8 +22,8 @@ function App() {
       <div className="header">
         <div className="top"><Link to="/" style={{ textDecoration: 'none' }}><div className="top-text"><h1>3 Good Things</h1></div></Link></div>
         <div className="nav">
-          <div className="button-left"><Link to="/lh-good" style={{ textDecoration: 'none' }}><div className="button-text"><h2>LH's Good Things</h2></div></Link></div>
-          <div className="button-right"><Link to="/all-good-things" style={{ textDecoration: 'none' }}><div className="button-text"><h2>All the Good Things</h2></div></Link></div>
+          <div className="button-left"><Link to="/lh-good" style={{ textDecoration: 'none' }}><div className="button-text"><h2 className="left-text">LH's Good Things</h2></div></Link></div>
+          <div className="button-right"><Link to="/all-good-things" style={{ textDecoration: 'none' }}><div className="button-text"><h2 className="right-text">All the Good Things</h2></div></Link></div>
         </div>
       </div>
 

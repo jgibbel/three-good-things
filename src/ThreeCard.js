@@ -6,8 +6,8 @@ const ThreeCard = ({name, threeArr}) => {
             <h3>{name}</h3>
             <ol  className="card-list">
             <li className="card-text">{threeArr[0]}</li>
-            <li className="card-text">{threeArr[1]}</li>
-            <li className="card-text">{threeArr[2]}</li>
+            { threeArr[1] ? <li className="card-text">{threeArr[1]}</li> : null}
+            { threeArr[2] ? <li className="card-text">{threeArr[2]}</li> : null}
             </ol>
         </div>
     );
