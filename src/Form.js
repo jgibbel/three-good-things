@@ -14,7 +14,7 @@ const Form = () => {
 
     return (
         <div>
-        <p>Get three good things in your inbox:</p>
+        <p className="center">Get three good things in your inbox:</p>
         <form onSubmit={submit} name="submit-to-google-sheet">
         <label for="name">Name</label>
         <input name="name" type="text" placeholder="Name"></input>

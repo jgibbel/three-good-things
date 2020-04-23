@@ -62,18 +62,18 @@ h3 {
 /* #ffcad2 #29a646 */
 .top {
   /* background-color:   #2e6cf2; */
-  background-color: #ffcad2;
+  background-color:#2e6cf2;
 }
 
 .top-text {
   text-align: center;
-  /* color: #a2f47e; */
-  color: #29a646;
+  color: #fffbdb;
+  /* color: #29a646; */
   padding: 20px;
 }
 
 .top:hover {
-  background-color:   #a2f47e
+  background-color:   #fffbdb
 }
 .top-text:hover {
   color: #2e6cf2;
@@ -84,8 +84,8 @@ h3 {
   padding: 10px;
 }
 .right-text {
-  /* color: #29a646; */
-  color: #a2f47e;
+  color: #29a646;
+
   padding: 10px;
 }
 .button-left {
@@ -94,7 +94,7 @@ h3 {
 }
 .button-right {
   /* background-color: #ffcad2; */
-  background-color:   #2e6cf2;
+  background-color:   #ffcad2 ;
   
 }
 
@@ -156,17 +156,25 @@ h3 {
 /* CARD */
 
 .card-container {
-  background-color: #f5edd2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffcad2;
   padding-bottom: 1px;
   /* border: 2px solid #19079c */
-  margin: 5px 5px 5px 0;
+  margin: 2vw;
   /* margin: 5px; */
 }
 
+
+.card-text {
+  font-size: 20px;
+  line-height: 30px;
+}
 h3 {
   margin: 0;
-  padding: 1em 1em 0 1em;
-  
+  padding: 1em 1em 0.5em 1em;
+  font-size: 40px;
+  line-height: 40px;
+
 }
 
 
@@ -179,7 +187,7 @@ ol li {
   margin: 0 1.5em 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
-  padding-top: 12px;
+  padding-top: 4px;
   padding-bottom: 12px;
   word-wrap: break-word;
 }
@@ -196,7 +204,7 @@ ol li::before {
   height: var(--size);
   top: 0;
   padding: 4px;
-  background: #19079c;
+  background: #f26202;
   border-radius: 50%;
   text-align: center;
 }
@@ -205,11 +213,14 @@ ol li::before {
 
 
 .home {
-  padding: 4vw
+  padding: 0 4vw 4vw;
 }
 
 .week-name {
-  margin: 10px;
+  margin: 4vw;
+  font-size: 45px;
+  line-height: 50px;
+
 }
 
 
@@ -244,8 +255,8 @@ input[type=email]:focus {
 }
 
 button {
-  background-color: #f5edd2; /* Green */
-  border: 2px dashed #19079c;
+  background-color: white; /* Green */
+  border: 2px solid #19079c;
   border-radius: 8px;
   color: #19079c;
   padding: 8px 40px;
@@ -271,7 +282,7 @@ button:hover {
   padding-left: 15px;
 } */
 
-
+@media (min-width: 800px) {
 .columns {
   display: flex;
   flex-direction: row;
@@ -281,9 +292,111 @@ button:hover {
 .column {
   width: 50%
 }
-
-
-
-.home-h2 {
-  margin: 6vw 10vw
 }
+
+@media (max-width: 800px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .column {
+    width: 100%
+  }
+  }
+
+.lh-home {
+  padding: 4vw
+}
+
+#lh-quote {
+  text-align: center;
+  font-size: 35px;
+  margin: 8vh 10vw;
+}
+
+.lh-home p {
+  margin: 3vw 10vw;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 35px;
+  
+}
+
+@media (min-width: 1000px) {
+.home-cont {
+  display: flex;
+  flex-direction: row;
+  /* padding-bottom: 60px; */
+}
+.left-item {
+  width: 65%;
+}
+.right-item {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home-h2 {
+  margin: 50px 30px;
+}
+
+
+.tarot-photo {
+  width: 100%;
+}
+
+}
+
+@media (max-width: 1000px) {
+  .home-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-item {
+    width: 100%;
+  }
+  .right-item {
+    width: 100%;
+    padding-bottom: 50px;
+    /* margin: 50px; */
+  }
+  .home-h2 {
+    margin: 6vw 5vw ;
+  }
+
+
+.tarot-photo {
+  width: 50%;
+  margin-left: 25%
+}
+  
+  }
+/* 
+.home-h2 {
+  margin: 6vw 10vw 
+} */
+
+.tarot-standin {
+  width: 350px;
+  height: 400px;
+  background-color: blue;
+  margin: auto;
+}
+
+
+
+.big {
+  font-size: 35px;
+}
+
+.med {
+  font-size: 28px;
+}
+
+.center {
+  text-align: center;
+}
+

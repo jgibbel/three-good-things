@@ -5,12 +5,13 @@ import ThreeCard from './ThreeCard'
 
 const LHGood = () => {
     return (
-            <div className="home">
+            <div className="lh-home">
         
-        <p>So,</p>
         <p>When James was six, he struggled with nightmares. They woke him at night, and then he woke us with his heartbreaking cries. I started experimenting with calming bedtime rituals. I tried hanging a dreamcatcher over his bed. I sang  “Michael Row Your Boat Ashore” softly and off-key. I lay quietly beside him as he tossed and turned.  Nothing worked. He’d wake in the morning, tired and anxious--already fearful of the night to come.
        </p>
-       <p> One night, having exhausted all other ideas, I said, “how about I give you three good things to think about?” He responded with silence, which I took as tacit consent.  So I named the first three things that came to mind: an upcoming trip to visit our dear friends Ann and Laura in Woodstock;  constructing buildings with his PlayMobil combo of Royal Princess Castle and Fort Eagle; making cookies with his good friend Ben.  
+       <p> One night, having exhausted all other ideas, I said, </p>
+          <p id="lh-quote"> “How about I give you three good things to think about?” </p>
+           <p>He responded with silence, which I took as tacit consent.  So I named the first three things that came to mind: an upcoming trip to visit our dear friends Ann and Laura in Woodstock;  constructing buildings with his PlayMobil combo of Royal Princess Castle and Fort Eagle; making cookies with his good friend Ben.  
        </p>
        <p> The following morning he seemed a bit more rested and relaxed. I didn’t probe--sometimes it’s best to let things be.
        </p>
@@ -28,7 +29,7 @@ const LHGood = () => {
         
         <p> I’m going to try to give myself, and whoever else wants them, three good things once a week. 
         </p> 
-        <p>Much love,<br/>
+        <p className="center">Much love,<br/>
         Lisa</p>
 
         <br/><br/>
